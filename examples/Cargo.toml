@@ -6,8 +6,19 @@ edition = "2021"
 
 [dev-dependencies]
 rqx = { version = "0.1.0", path = "../rqx", features = ["default"] }
-
+tokio = { version = "^1.44", features = ["full"] }
+tokio-tungstenite = { version = "0.26" }
+futures-util = "0.3.31"
 
 [[example]]
 name = "basic"
 path = "basic.rs"
+
+[[example]]
+name = "websocket"
+path = "websocket.rs"
+
+[[example]]
+name = "tcp"
+path = "tcp.rs"
+

@@ -1,11 +1,11 @@
 # mqtt
 
 - v5
-- v3.1.1
+- Not supported v3.1.1
 
 ## Crates
 
-- tokio 1.32.0
+- tokio
 
 ```toml
 [dependencies]
