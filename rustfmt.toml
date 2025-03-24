@@ -1,0 +1,21 @@
+# Set the maximum width of each line to 100 characters
+max_width = 100
+# Turn online breaks for function call parameters
+fn_call_width = 110
+# Turn online breaks for function declaration parameters
+fn_args_width = 90
+# Indent with 4 spaces
+tab_spaces = 4
+# Make function parameters as compact as possible
+fn_args_density = "compressed"
+# Controls whether annotations are aligned
+align_comments = true
+# Align structure fields
+struct_field_align_threshold = 12
+# Automatic rearrangement imports
+reorder_imports = true
+# Use Unix-style line breaks.
+newline_style = "unix"
+# Empty fields are placed on the same line during structure definition
+empty_item_single_line = true
+
